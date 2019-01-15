@@ -7,6 +7,7 @@
   "browser": "dist/store.umd.js",
   "scripts": {
     "build": "npx rollup -c",
+    "prepublish": "npm run build",
     "prettier": "npx prettier --write \"src/**/*.{js}\""
   },
   "author": "Dmytro Ulianov",

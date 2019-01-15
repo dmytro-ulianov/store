@@ -22,21 +22,27 @@ function configureStore({
 ```
 
 **`reducer: Object<string, Reducer> | Reducer`**
+
 An object with slice reducers or just a reducer function (**required**).
 
 **`middlewares: Array<Middleware>`**
+
 An array of Redux middlewares. Default to `[]`
 
 **`initialState: State`**
+
 Initial state that will be passed to `createStore`
 
 **`enhancers: Array<StoreEnhancer>`**
+
 Enhancers to apply. Defaults to `[]`
 
 **`devTools: boolean`**
+
 Indicates if Redux DevTools should be enabled. Defaults to `true`.
 
 **`production: boolean`**
+
 When `true` disables development-only features. By default will check `process.env.NODE_ENV`.
 
 #### Basic example

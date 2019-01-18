@@ -27,5 +27,16 @@
     "rollup-plugin-commonjs": "9.2.0",
     "rollup-plugin-node-resolve": "4.0.0",
     "rollup-plugin-uglify": "6.0.0"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "npx prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }

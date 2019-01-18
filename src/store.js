@@ -11,9 +11,9 @@ import { composeWithDevTools } from 'redux-devtools-extension'
  *   production: Boolean,
  *   reducer: Function || Object,
  * }}
- * @returns {Promise<Store>}
+ * @returns {Store}
  */
-export const configureStore = async (options = {}) => {
+export const configureStore = (options = {}) => {
   const {
     devTools = true,
     enhancers = [],

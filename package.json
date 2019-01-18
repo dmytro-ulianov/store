@@ -1,6 +1,6 @@
 {
   "name": "@featherweight/store",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Configure and create Redux store with ease",
   "main": "dist/store.cjs.js",
   "module": "dist/store.esm.js",
